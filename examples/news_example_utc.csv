@@ -1,0 +1,4 @@
+utc,currency,impact,event
+2024.01.08 15:00:00,USD,HIGH,FICTIONAL event A - schema fixture only
+2024.01.09 09:30:00,GBP,HIGH,FICTIONAL event B - schema fixture only
+2024.01.09 12:00:00,EUR,LOW,FICTIONAL low impact event - not excluded

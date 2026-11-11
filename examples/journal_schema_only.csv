@@ -1,0 +1,1 @@
+rule_version,config_id,symbol,timeframe,setup_id,session_id,event_time,observed_time,event,from_state,to_state,reason,range_low,range_high,extreme,zone_low,zone_high,entry,sl,tp,volume,planned_risk_money,order_ticket,position_id,deal_ticket,actual_price,actual_volume,spread,commission,swap,fee,profit,slippage,net_pnl,net_R,record_end
