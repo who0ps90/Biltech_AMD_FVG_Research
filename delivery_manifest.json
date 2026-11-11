@@ -1,0 +1,210 @@
+{
+  "name": "Biltech_AMD_FVG_Research",
+  "rule_version": "1.0.0",
+  "verification_date": "2026-10-25",
+  "compiler": "MetaEditor 5.0.0.6281 X64 Regular",
+  "ea_compilation": "0 errors, 0 warnings",
+  "fixture_compilation": "0 errors, 0 warnings",
+  "offline_tests": {
+    "passed": 28,
+    "failed": 0,
+    "report_calculations": 16,
+    "source_contracts": 12
+  },
+  "native_fixture_execution": "NOT RUN",
+  "strategy_tester": "NOT RUN",
+  "forward_demo": "NOT RUN",
+  "real_account_permission_default": false,
+  "files": [
+    {
+      "path": "config/London_VisualOnly_FIXED_UTC_EXAMPLE.set",
+      "sha256": "7e601dd3ca63e873e101f2fd877eb59bad48d85367029ac8df416aba4c2ba924",
+      "bytes": 1708
+    },
+    {
+      "path": "config/NY_Tester_FIXED_UTC_EXAMPLE.set",
+      "sha256": "8794e16e7f8482dcd03d51f43f802b7b5be0f85d451e70df00d9646190735cc3",
+      "bytes": 1708
+    },
+    {
+      "path": "config/NY_VisualOnly_REQUIRED_CLOCK.set",
+      "sha256": "099a3352e96cde73f8ddd79be520a4b1a6df182474109a66e390fa131b2c69e7",
+      "bytes": 1714
+    },
+    {
+      "path": "config/README.md",
+      "sha256": "e7b42a27ae8d5a3b34536979b781c0ec7f396a53b93be2ca07b1f8b3d651f0d0",
+      "bytes": 2580
+    },
+    {
+      "path": "docs/CSV_SCHEMAS.md",
+      "sha256": "c5c71035315ab0c0bb6fffab68c80d5d30e4d224807309a3d7b98383ac74147f",
+      "bytes": 7402
+    },
+    {
+      "path": "docs/KNOWN_LIMITATIONS.md",
+      "sha256": "3a885774f7c0735d680ad809aad2921e122e7a92bb3ae910e7553bdffa9274c1",
+      "bytes": 6721
+    },
+    {
+      "path": "docs/MANUAL_CHECKLIST.md",
+      "sha256": "dd2c7e160909a6c5dd2637ead75166c93e70ac7b6773461aa29262593622c5f1",
+      "bytes": 5843
+    },
+    {
+      "path": "docs/ORIGINAL_REQUIREMENTS.md",
+      "sha256": "18fb9d6b3d007ce13255f22b034b1d4f393de6747b6a6ac6143f7572a09fc302",
+      "bytes": 14523
+    },
+    {
+      "path": "docs/STRATEGY_AND_PARAMETERS.md",
+      "sha256": "5049ef6f37f10e2a6f1d87ace54f5cae7f8adfee801e2590355f5384e8e57fd7",
+      "bytes": 28638
+    },
+    {
+      "path": "docs/VERIFICATION_MATRIX.md",
+      "sha256": "ab13cdbd409e20ad788d4fad535d9d87a6932350a3d39d3512f2c0abd0070cd1",
+      "bytes": 13544
+    },
+    {
+      "path": "examples/equity_schema_only.csv",
+      "sha256": "d1edf2f845182dbb23ef0b4278ef3860b4e56d9f099e7f086e1f715fcdf0d4ee",
+      "bytes": 12
+    },
+    {
+      "path": "examples/journal_schema_only.csv",
+      "sha256": "e72c2c85763a6340228f7c5252d4f8ae20f4453f8bf2ff1e5533f63ba94f750c",
+      "bytes": 337
+    },
+    {
+      "path": "examples/news_example_utc.csv",
+      "sha256": "9b6d5a7320f4e25412f4bf76bf5e236f1ffada0228d70251f794cb18fb321236",
+      "bytes": 234
+    },
+    {
+      "path": "MQL5/Experts/Biltech_AMD_FVG_Research.ex5",
+      "sha256": "7bd42b52be7ebe7dbd1ed46b6cbd659dd4b7b342ca3fb0203fadf0b963aae4f6",
+      "bytes": 150050
+    },
+    {
+      "path": "MQL5/Experts/Biltech_AMD_FVG_Research.mq5",
+      "sha256": "507d5a9e75c50b67c3b996734b4793425397d2d0a397554697d91d1767b85065",
+      "bytes": 30683
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Execution.mqh",
+      "sha256": "9ec3638fc2b3966f76173d47105faa5d0416135747edc409b297e93075d7fb04",
+      "bytes": 9116
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Journal.mqh",
+      "sha256": "5158edb8070bfa8d1bdcacf2202d43103a2fea8bffe3def3b582a32c65575526",
+      "bytes": 4964
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/JournalTests.mqh",
+      "sha256": "36567ac8df619ef4bf946e28e1b587e4a5ce9f4788e0a2350e7340464a0c8fee",
+      "bytes": 7622
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/News.mqh",
+      "sha256": "ae3e129e507b842bb40238bdfcb573edf6ba609f96704af129703fe46050428b",
+      "bytes": 10323
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Risk.mqh",
+      "sha256": "9e5e749400c8827c5e77cc279f8ad3f64e8d2f9778f3adbc2658e1339015a32e",
+      "bytes": 15204
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/RiskExecutionTests.mqh",
+      "sha256": "a17a048b5e1c245ec6faf26079f4a9829166e8a31d92f460940c081346613a62",
+      "bytes": 13760
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Signal.mqh",
+      "sha256": "8428c08e4d1ebabd493ad4b4ddbe3446758846b4892d44c19afea51febd36656",
+      "bytes": 9517
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/SignalTests.mqh",
+      "sha256": "15c9b77dd505267f7380865ceccb9a4211e02d5d486cd5de163081bfaad0b210",
+      "bytes": 12980
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Storage.mqh",
+      "sha256": "42c3b22a44cf5d14e8537cac63936b8fa17f7429055c789a5ee8cf494dac413c",
+      "bytes": 5357
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Time.mqh",
+      "sha256": "6922058162de4f143ef3cedce5886115e749bbe3cbe63c30e9d8ed8272516507",
+      "bytes": 9924
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/TimeNewsTests.mqh",
+      "sha256": "a7c0c92d59b06052c8560f454171b16452ecbc3db94d0507c2a094d865fef677",
+      "bytes": 11763
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Types.mqh",
+      "sha256": "76503e5741301e566ebe3f0199eb5be2bf93ee1cf474dd9fc6e9bc90fd677aca",
+      "bytes": 3031
+    },
+    {
+      "path": "MQL5/Include/BiltechAMD/Visuals.mqh",
+      "sha256": "4a40987bdd5788ba53ff375ac838271f06dacbc3d62ce4d824f7f48a6ae0f0b7",
+      "bytes": 3808
+    },
+    {
+      "path": "MQL5/Scripts/Biltech_AMD_Tests.ex5",
+      "sha256": "4578808b653f93ba8f4f4f2b2922f530346e316fb44265120ff3233f4694e9b4",
+      "bytes": 111924
+    },
+    {
+      "path": "MQL5/Scripts/Biltech_AMD_Tests.mq5",
+      "sha256": "369a0dd24db22de188fac9d079e6ca7c8f83cebc1f5daceefecd4d67a4ebdf46",
+      "bytes": 576
+    },
+    {
+      "path": "README.md",
+      "sha256": "d4c7d58fe9a0235ada20323f9b825fcbe6e4127c6e94d08dc6a450c4246194e9",
+      "bytes": 8098
+    },
+    {
+      "path": "tests/compile_ea.log",
+      "sha256": "408643505e9803041cf1314b88096fa0a9788d8c2c6616b67735bd44b1f155f1",
+      "bytes": 7008
+    },
+    {
+      "path": "tests/compile_fixtures.log",
+      "sha256": "91052af9663888c5c70bf26f7d43bd294e6b7bbca35ff31bd689247c74ac8f00",
+      "bytes": 8296
+    },
+    {
+      "path": "tests/report_research.test.mjs",
+      "sha256": "9c5515d8e1552daf2d72fee14e80bfbed0ce61520471f8f70a3ad2fcb8da1437",
+      "bytes": 9823
+    },
+    {
+      "path": "tests/source_contract.test.mjs",
+      "sha256": "db10367baae31cf38b8b79db9658d86f25ffda9f00d3be6d08def09ffd09f71a",
+      "bytes": 11991
+    },
+    {
+      "path": "tests/TEST_RESULTS.md",
+      "sha256": "fb4186869f7820911a751f34c021c94f00bb846f4ca9887eb8a9dcb775b7fc3b",
+      "bytes": 3084
+    },
+    {
+      "path": "tools/compile.ps1",
+      "sha256": "5d95af79c452a08c51fb846aac552805f50bf449bb41214284011b0307909801",
+      "bytes": 3851
+    },
+    {
+      "path": "tools/report_research.mjs",
+      "sha256": "8650f87a094284a0e0fd5f623551ffdde5104668ba2971f9501066e9f04cecb4",
+      "bytes": 14099
+    }
+  ]
+}

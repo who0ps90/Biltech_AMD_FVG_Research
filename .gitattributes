@@ -1,0 +1,6 @@
+# Preserve exact delivery bytes, including UTF-16LE MT5 settings and compiler logs.
+* -text
+*.ex5 binary
+*.zip binary
+*.set binary
+*.log binary

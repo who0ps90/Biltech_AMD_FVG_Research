@@ -1,0 +1,23 @@
+# MT5 runtime state and account-specific research output
+BiltechAMD_*
+MQL5/Files/
+Tester/
+research-output/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.tmp
+
+# The delivered EX5 binaries, ZIP package, example CSVs, and compile logs are intentional.
